@@ -7,8 +7,10 @@ ${Segment.OnInit}
 	System::Call kernel32::IsWow64Process(is,*i.r0)
 	${If} $0 == 0
 		StrCpy $Bits 32
+		Rename "$EXEDIR\App\7-Zip64\Lang" "$EXEDIR\App\7-Zip\Lang"
 	${Else}
 		StrCpy $Bits 64
+		Rename "$EXEDIR\App\7-Zip\Lang" "$EXEDIR\App\7-Zip64\Lang"
 	${EndIf}
 !macroend
 
