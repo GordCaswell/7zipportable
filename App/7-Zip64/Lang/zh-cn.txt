@@ -1,7 +1,7 @@
 ;!@Lang2@!UTF-8!
-;                    : Modern Tiger, kaZek, Hutu Li
-;                    : Sparanoid (aka. Tunghsiao Liu)
-; 15.05 : 2015-06-15 : Tunghsiao Liu : http://sparanoid.com/lab/7z/
+;  2.30 : 2002-09-07 : Modern Tiger, kaZek, Hutu Li
+;  3.08 : 2003-08-29 : Tunghsiao Liu (aka. Sparanoid)
+; 16.00 : 2016-05-16 : Tunghsiao Liu (aka. Sparanoid)
 ;
 ;
 ;
@@ -216,7 +216,7 @@ iNode
 提取文件...
 添加到压缩包...
 测试压缩包
-提取到当前目录
+提取到当前位置
 提取到 {0}
 添加到 {0}
 压缩并邮寄...
@@ -297,7 +297,7 @@ iNode
 自动重命名
 重命名现有文件
 3430
-排除根目录重复文件
+排除重复的根文件夹
 恢复文件安全设置
 3500
 确认文件替换

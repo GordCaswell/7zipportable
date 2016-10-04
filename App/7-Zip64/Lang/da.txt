@@ -1,7 +1,7 @@
-﻿;!@Lang2@!UTF-8!
+;!@Lang2@!UTF-8!
 ;       : Jakob Schmidt
 ;  9.07 : Kian Andersen, Jørgen Rasmussen
-; 15.00 : 2015-07-05 : scootergrisen
+; 15.00 : 2016-08-19 : scootergrisen
 ;
 ;
 ;
@@ -35,9 +35,9 @@ Genstart
 &Forgrund
 &Pause
 Pauset
-Er du sikker på du vil annullere?
+Er du sikker på, at du vil annullere?
 500
-&Fil
+&Filer
 R&ediger
 &Vis
 F&avoritter
@@ -45,8 +45,8 @@ Funk&tioner
 &Hjælp
 540
 &Åbn
-Åbn &indeni
-Åbn &udenfor
+Åbn &inden i
+Åbn &uden for
 &Vis
 &Rediger
 O&mdøb
@@ -62,8 +62,8 @@ Sammenlign
 Opret mappe
 Opret fil
 &Afslut
-Opret/rediger genvej
-&Alternative streams
+Opret/rediger henvisning
+&Alternative strømme
 600
 Vælg &alle
 Fravælg alle
@@ -96,7 +96,7 @@ Vis knappernes tekst
 &Føj mappe til Favoritter som
 Bogmærke
 900
-&Indstillinger...
+&Funktioner...
 &Benchmark
 960
 &Indhold...
@@ -113,10 +113,10 @@ Oprettet
 Åbnet
 Ændret
 Solid
-Kommentar
+Kommenteret
 Krypteret
-Opdeling før
-Opdeling efter
+Opdel før
+Opdel efter
 Leksikon
 
 Type
@@ -128,15 +128,15 @@ Bruger
 Gruppe
 Blok
 Kommentar
-Position
+Placering
 Sti præfiks
 Mapper
 Filer
 Version
 Bind
 Flerbindsarkiv
-Offset
-Links
+Forskydning
+Henvisning
 Blokke
 Bind
 
@@ -144,7 +144,7 @@ Bind
 Big-endian
 CPU
 Fysisk størrelse
-Headerstørrelse
+Hovedernes størrelse
 Checksum
 Karakteristika
 Virtuel adresse
@@ -153,16 +153,16 @@ Kort navn
 Oprettende program
 Sektorstørrelse
 Tilstand
-Link
+Symbolsk henvisning
 Fejl
 Samlet størrelse
 Fri plads
-Clusterstørrelse
+Klyngestørrelse
 Etiket
 Lokalt navn
 Udbyder
 NT Security
-Alternativ stream
+Alternativ strøm
 Aux
 Slettet
 Er træ
@@ -173,9 +173,9 @@ Fejl
 Fejl
 Advarsler
 Advarsel
-Streams
-Alternative streams
-Alternative streamsstørrelse
+Strømme
+Alternative strømme
+Størrelse på alternative strømme
 Virtuel størrelse
 Udpakket størrelse
 Samlet fysiske størrelse
@@ -188,21 +188,21 @@ Tegnsæt
 
 Halestørrelse
 Indlejret stumpstørrelse
-Genvej
-Fast forbindelse (Hard Link)
+Henvisning
+Fast henvisning
 iNode
 
 Skrivebeskyttet
 2100
-Indstillinger
+Funktioner
 Sprog
 Sprog:
-Editor
-&Editor-program:
-&Sammenligningsprogram (Diff):
+Redigering
+&Rediger:
+&Sammenlign:
 2200
 System
-Tilknyt 7-Zip til:
+Knyt 7-Zip til:
 Alle brugere
 2301
 Vis i Windows genvejsmenu
@@ -215,28 +215,28 @@ Ikoner i genvejsmenu
 Åbn arkiv
 Udpak filer...
 Føj til arkiv...
-Undersøg arkiv
+Test arkiv
 Udpak her
 Udpak til {0}
 Føj til {0}
-Pak og e-mail...
-Pak til {0} og e-mail
+Komprimer og vedhæft i e-mail...
+Komprimer til {0} og vedhæft i e-mail
 2400
 Mapper
 &Arbejdsmappe
-&Systemets temp-mappe
-&Nuværende
+&Systemets midlertidige mappe
+&Aktuelle
 &Brugerdefineret:
 Brug kun til flytbare drev
-Angiv placering til midlertidige filer.
+Angiv en placering til midlertidige arkivfiler.
 2500
 Indstillinger
-Vis ".." element
+Vis ".."-element
 Vis rigtige filikoner
 Vis systemmenu
-&Markér hele rækken
+&Marker hele rækken
 Vis &gitter
-Ét klik for at åbne element
+Åbn element med ét klik
 &Alternativ markeringsmetode
 Brug &store hukommelsessider
 2900
@@ -246,27 +246,27 @@ Om 7-Zip
 Systemet kan ikke tildele den nødvendige mængde hukommelse
 Der er ingen fejl
 {0} markerede element(er)
-Kan ikke oprette mappe '{0}'
-Arkivet understøtter ikke opdatering.
-Kan ikke åbne filen '{0}' som arkiv
-Kan ikke åbne krypterede arkiv '{0}'. Forkert adgangskode?
+Kan ikke oprette mappen "{0}"
+Arkivet understøtter ikke opdateringshandlinger.
+Kan ikke åbne filen "{0}" som arkiv
+Kan ikke åbne det krypterede arkiv "{0}". Forkert adgangskode?
 Arkivtypen er ikke understøttet
 Filen {0} findes allerede
-Filen '{0}' er blevet ændret.\nVil du opdatere den i arkivet?
-Kan ikke opdatere filen\n'{0}'
-Kan ikke starte editor.
+Filen "{0}" er blevet ændret.\nVil du opdatere den i arkivet?
+Kan ikke opdatere filen\n"{0}"
+Kan ikke starte redigering.
 Filen ligner en virus (filnavnet indeholder lange mellemrum i navn).
-Handlingen kan ikke kaldes fra en mappe med lang sti.
+Handlingen kan ikke kaldes fra en mappe som har en lang sti.
 Du skal vælge en fil
 Du skal vælge en eller flere filer
 For mange elementer
 Kan ikke åbne filen som {0}-arkiv
 Filen er åbnet som {0}-arkiv
-Arkivet er åbnet med offset
+Arkivet er åbnet med forskydning
 3300
 Udpakker
-Nedpakker
-Undersøger
+Komprimerer
+Tester
 Åbner...
 Skanner...
 Fjerner
@@ -276,53 +276,53 @@ Opdaterer
 Analyserer
 Replikerer
 Ompakker
-Overspringer
+Springer over
 Sletter
-Opretter header
+Opretter hovede
 3400
 Udpak
 U&dpak til:
-Vælg en placering til udpakkede filer.
+Angiv en placering til udpakkede filer.
 3410
-Stitype
+Stitilstand:
 Fulde stinavne
 Ingen stinavne
 Absolutte stinavne
 Relative stinavne
 3420
-Erstatningstype:
-Spørg før erstatning
-Erstat uden at spørge
+Overskrivningstilstand:
+Spørg før overskrivning
+Overskriv uden at spørge
 Spring eksisterende filer over
-Omdøb automatisk
-Omdøb automatisk eksisterende filer
+Automatisk omdøbning
+Automatisk omdøbning af eksisterende filer
 3430
-Forhindre duplikering af rodmappe
+Forhindr duplikering af rodmappe
 Genskab filsikkerhed
 3500
 Bekræft filerstatning
-Destinationsmappen indeholder allerede behandlede filer.
-Ønsker du at udskifte den eksisterende fil
+Destinationsmappen indeholder allerede behandlet fil.
+Vil du erstatte den eksisterende fil
 med denne?
-{0} bytes
+{0} byte
 A&utomatisk omdøbning
 3700
-Ikke understøttet pakkemetode for '{0}'.
-Datafejl i '{0}'. Filen er ødelagt.
-CRC mislykkedes i '{0}'. Filen er ødelagt.
-Datafejl i den krypterede fil '{0}'. Forkert adgangskode?
-CRC mislykkedes i den krypterede fil '{0}'. Forkert adgangskode?
+Komprimeringsmetode for "{0}" er ikke understøttet.
+Datafejl i "{0}". Filen er ødelagt.
+CRC mislykkedes i "{0}". Filen er ødelagt.
+Datafejl i den krypterede fil "{0}". Forkert adgangskode?
+CRC mislykkedes i den krypterede fil "{0}". Forkert adgangskode?
 3710
 Forkert adgangskode?
 3721
-Pakkemetoden er ikke understøttet
+Komprimeringsmetoden er ikke understøttet
 Datafejl
 CRC mislykkedes
 Utilgængelig data
 Uventet slutning på data
 Der er data efter slutningen af nyttedataene
 Ikke et arkiv
-Fejl i headers
+Fejl i hoveder
 Forkert adgangskode
 3763
 Utilgængelig begyndelse på arkiv
@@ -330,11 +330,11 @@ Ubekræftet begyndelse på arkiv
 
 
 
-Funktionen understøttes ikke
+Faciliteten understøttes ikke
 3800
 Indtast adgangskode
 Indtast adgangskode:
-Indtast adgangskoden igen:
+Indtast adgangskode igen:
 &Vis adgangskode
 Adgangskoderne er ikke ens
 Brug kun engelske bogstaver, numre og specialtegn (!, #, $, ...) til adgangskoden
@@ -352,35 +352,35 @@ Arkiver:
 4000
 Føj til arkiv
 &Arkiv:
-O&pdateringstype:
+O&pdateringstilstand:
 Arkiv&format:
 Komprimerings&niveau:
-Pakke&metode:
+Komprimerings&metode:
 Størrelse på or&dbog:
 Størrelse på &ord:
-Størrelse på solid block:
-Antal CPU tråde:
+Størrelse på solid blok:
+Antal CPU-tråde:
 Pa&rametre:
 Funktioner
-Opret selvudpakkende SF&X-arkiv
+Opret SF&X-arkiv
 Komprimer delte filer
 Kryptering
 Krypteringsmetode:
 Kr&ypter filnavne
-Hukommelsesforbrug ved nedpakning:
+Hukommelsesforbrug ved komprimering:
 Hukommelsesforbrug ved udpakning:
-Slet filer efter kompression
+Slet filer efter komprimering
 4040
-Gem symbolsk links
-Gem hard links
-Gem alternative data streams
+Gem symbolske henvisninger
+Gem hårde henvisninger
+Gem alternative datastrømme
 Gem filsikkerhed
 4050
-Kun gem
-Hurtigste
+Gem
+Hurtigst
 Hurtig
 Normal
-Bedste
+Maksimum
 Ultra
 4060
 Tilføj og erstat filer
@@ -390,7 +390,7 @@ Synkroniser filer
 4070
 Gennemse
 Alle filer
-Non-solid
+Ikke-solid
 Solid
 6000
 Kopier
@@ -401,17 +401,17 @@ Kopierer...
 Flytter...
 Omdøber...
 Vælg destinationsmappen.
-Handlingen er ikke understøttet for denne mappe.
+Handlingen understøttes ikke af denne mappe.
 Fejl under omdøbning af fil eller mappe
-Bekræft filkopiering
-Er du sikker på at du vil kopiere filer til arkiv
+Bekræft kopiering af fil
+Er du sikker på, at du vil kopiere filer til arkiv
 6100
 Bekræft sletning af fil
 Bekræft sletning af mappe
 Bekræft sletning af flere filer
-Er du sikker på du vil slette '{0}'?
-Er du sikker på du vil slette mappen '{0}' og alt dens indhold?
-Er du sikker på du vil slette disse {0} elementer?
+Er du sikker på, at du vil slette "{0}"?
+Er du sikker på, at du vil slette mappen "{0}" og alt dens indhold?
+Er du sikker på, at du vil slette disse {0} elementer?
 Sletter...
 Fejl under sletning af fil eller mappe
 Systemet kan ikke flytte en fil med lang sti til Papirkurven
@@ -429,12 +429,12 @@ Kommentar
 &Kommentar:
 Vælg
 Fravælg
-Masker:
+Maske:
 6600
 Egenskaber
-Mappehistorik
-Diagnostiske beskeder
-Besked
+Mappers historik
+Diagnostiske meddelelser
+Meddelelse
 7100
 Computer
 Netværk
@@ -451,45 +451,45 @@ Info
 7300
 Opdel fil
 &Opdel til:
-Opd&el i bind, bytes:
+Opd&el i bind, byte:
 Opdeler...
 Bekræft opdeling
-Er du sikker på du vil opdele filen i {0} bind?
+Er du sikker på, at du vil opdele filen i {0} bind?
 Størrelsen på bind skal være mindre end størrelsen på den oprindelige fil
 Forkert størrelse på bind
-Angivet størrelse på bind: {0} bytes.\nEr du sikker på du ønsker, at opdele arkivet i disse bind?
+Angivet størrelse på bind: {0} byte.\nEr du sikker på, at du vil opdele arkivet i disse bind?
 7400
 Kombiner filer
 &Kombiner til:
 Kombinerer...
 Vælg kun første del af opdelt fil
-Kan ikke genkende fil, som del af en opdelt fil
+Kan ikke genkende fil, som del af opdelt fil
 Kan ikke finde mere end én del af opdelt fil
 7500
 Beregner checksum...
 Checksum information
-CRC checksum for data:
-CRC checksum for data og navne:
+CRC-checksum for data:
+CRC-checksum for data og navne:
 7600
 Benchmark
 Hukommelsesforbrug:
 Komprimering
-Dekomprimering
+Udpakning
 Vurdering
 Samlet vurdering
 Aktuelt
 Resultat
 CPU forbrug
-Vurdering / Forbrug
+Vurdering/forbrug
 Gennemløb:
 7700
-Opret/rediger genvej
-Opret/rediger genvej
-Genvej fra:
-Genvej til:
+Opret/rediger henvisning
+Opret/rediger henvisning
+Henvisning fra:
+Henvisning til:
 7710
-Linktype
-Fast forbindelse (Hard Link)
-Fil symbolsk link
-Mappe symbolsk link
-Mappe forbindelsespunkt (Directory Junction)
+Henvisningstype
+Fast henvisning
+Fil symbolsk henvisning
+Mappe symbolsk henvisning
+Mappe forbindelsespunkt

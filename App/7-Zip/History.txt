@@ -1,6 +1,30 @@
 HISTORY of the 7-Zip
 --------------------
 
+16.03          2016-09-28
+-------------------------
+- Installer and SFX modules now use some protection against DLL preloading attack.
+- Some bugs were fixed in 7z, NSIS, SquashFS and RAR5 code.
+
+
+
+16.02          2016-05-21
+-------------------------
+- 7-Zip now can extract multivolume ZIP archives (z01, z02, ... , zip).
+- Some bugs were fixed.
+
+
+15.14          2015-12-31
+-------------------------
+- 7-Zip File Manager:
+  - The code for "Open file from archive" operation was improved.
+  - The code for "Tools/Options" window was improved.
+  - The BUG was fixed: there was incorrect mouse cursor capture for 
+    drag-and-drop operations from open archive to Explorer window.
+- Some bugs were fixed.
+- New localization: Yoruba.
+
+
 15.12          2015-11-19
 -------------------------
 - The release version.
